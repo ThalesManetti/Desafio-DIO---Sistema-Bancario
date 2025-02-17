@@ -1,4 +1,4 @@
-# Desafio-DIO---Sistema-Bancario
+# Desafio DIO - Sistema Bancário
 
 Repositório criado para resolução do desafio de criar um sistema bancário simples com python da DIO.
 
