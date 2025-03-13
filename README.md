@@ -2,9 +2,26 @@
 
 Repositório criado para resolução do desafio de criar um sistema bancário simples com python da DIO.
 
+V 1.0
+
 O desafio é fazer um sistema bancário com 3 operaçõs: depósito, saque e extrato.
 O sistema deve ter apenas 1 usuário, não precisa se preocupar em identifica-lo com número e conta e agência. 
 A operação *deposito*, só deve ser possível depositar valores positivos. Todos os depósitos  devem ser armazenada sem uma variável e exibida no extrato.
 A operação *saque* deve permitir realizar 3 saques diários com limite máximo de 500 reais por saque. Caso o usuário não tenha saldo em conta exibir uma mensagem. Os saques devem ser armazenados em uma variável e exibido no extrato.
 A operação *extrato* deve listar todos os depósitos e saques realizados na conta. No fim da listagem exibir o saldo da conta. 
 Os formatos devem ser R$: xxxxx.xx
+
+v 2.0
+
+Na segunda parte do desafio vamos melhorar o nosso código acrecentando novas funções.
+O Objetivo geral é otimizar o código separando as funções saque, deposito e extrato em funções separadas e crirar 2 novas funções: Cadastrar usuário e Cadastrar conta corrente
+
+A função *saque* deve receber seus argumentos apenas por keyword only 
+A função *deposito* deve receber seus argumentos apenas por positional only
+A função "extrato" deve receber seus argumentos por keyword only e positional only
+
+Novas funções:
+*Cadastrar usuário:* armazenar em uma lista um usuario, composto por: nome, data nascimento, cpf e endereço
+O CPF deve ser armazenado apenas os números. Cada CPF só pode ser de 1 unico usuário.
+*Cadastrar conta:* amazenar as contas em uma lista que é composta por: agência padrão "0001", número de conta e usuário.
+Número da conta é sequencial iniciando de 1. O Usuário pode ter mais de 1 conta, porém uma conta só pode pertencer a 1 usuário.
