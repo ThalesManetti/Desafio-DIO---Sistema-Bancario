@@ -25,3 +25,7 @@ Novas funções:
 O CPF deve ser armazenado apenas os números. Cada CPF só pode ser de 1 unico usuário.
 *Cadastrar conta:* amazenar as contas em uma lista que é composta por: agência padrão "0001", número de conta e usuário.
 Número da conta é sequencial iniciando de 1. O Usuário pode ter mais de 1 conta, porém uma conta só pode pertencer a 1 usuário.
+
+v 3.0 
+Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque.
+Atualização da implementação de um sistema bancário. O objetivo é armazenar os dados de clientes e contas bancárias em objetos, em vez de dicionários, seguindo um modelo de classes UML.
